@@ -30,52 +30,12 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".vscode/extensions.json",
-        "hash": "4934098906304722861"
-      },
-      {
         "file": "README.md",
         "hash": "3545261118181418371"
       },
       {
-        "file": "tailwind.config.js",
-        "hash": "7986470667704694812"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "8491837053101957257"
-      },
-      {
-        "file": "bills.db",
-        "hash": "17439652639096632583"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "18315524891129148814"
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
       },
       {
         "file": "migrations.json",
@@ -86,16 +46,56 @@
         "hash": "9850058845278658292"
       },
       {
-        "file": "package.json",
-        "hash": "4674034899188421071"
-      },
-      {
         "file": "package-lock.json",
         "hash": "15257385910645153551"
       },
       {
+        "file": ".gitignore",
+        "hash": "8491837053101957257"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "package.json",
+        "hash": "4674034899188421071"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
         "file": ".prettierignore",
         "hash": "3395189204293871444"
+      },
+      {
+        "file": "tailwind.config.js",
+        "hash": "7986470667704694812"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "bills.db",
+        "hash": "17439652639096632583"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "18315524891129148814"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
       }
     ],
     "projectFileMap": {
@@ -253,9 +253,8 @@
         },
         {
           "file": "frontend/src/main.ts",
-          "hash": "13235529822349800902",
+          "hash": "15763218217889205991",
           "deps": [
-            "npm:@angular/platform-browser",
             "npm:@angular/platform-browser-dynamic"
           ]
         },
