@@ -30,193 +30,223 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "18315524891129148814"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "8491837053101957257"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "3395189204293871444"
-      },
-      {
         "file": ".prettierrc",
         "hash": "16267754514737964994"
       },
       {
-        "file": ".vscode/extensions.json",
-        "hash": "4934098906304722861"
-      },
-      {
-        "file": "README.md",
-        "hash": "3545261118181418371"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
+        "file": "package-lock.json",
+        "hash": "15257385910645153551"
       },
       {
         "file": "migrations.json",
         "hash": "17225330691919688407"
       },
       {
+        "file": "README.md",
+        "hash": "3545261118181418371"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "8491837053101957257"
+      },
+      {
+        "file": "bills.db",
+        "hash": "17439652639096632583"
+      },
+      {
         "file": "nx.json",
         "hash": "9850058845278658292"
       },
       {
-        "file": "package-lock.json",
-        "hash": "17609814513109396594"
+        "file": ".eslintrc.json",
+        "hash": "18315524891129148814"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
       },
       {
         "file": "package.json",
-        "hash": "4089670907935947478"
+        "hash": "4674034899188421071"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "3395189204293871444"
       },
       {
         "file": "tsconfig.base.json",
         "hash": "16936441711144470533"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "tailwind.config.js",
+        "hash": "7986470667704694812"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
       }
     ],
     "projectFileMap": {
-      "frontend-e2e": [
+      "frontend": [
         {
-          "file": "frontend-e2e/.eslintrc.json",
-          "hash": "12199001048877152138"
+          "file": "frontend/.eslintrc.json",
+          "hash": "2256703210621316538"
         },
         {
-          "file": "frontend-e2e/cypress.config.ts",
-          "hash": "11715809145918169763",
+          "file": "frontend/jest.config.ts",
+          "hash": "2904116186309904543"
+        },
+        {
+          "file": "frontend/project.json",
+          "hash": "17317386203033135859"
+        },
+        {
+          "file": "frontend/src/app/actions/bills.actions.ts",
+          "hash": "12889045064278941161",
           "deps": [
-            "npm:@nx/cypress",
-            "npm:cypress"
+            "npm:@ngrx/store"
           ]
         },
         {
-          "file": "frontend-e2e/project.json",
-          "hash": "15059273554726147968"
+          "file": "frontend/src/app/actions/index.ts",
+          "hash": "11016409174876355888"
         },
         {
-          "file": "frontend-e2e/src/e2e/app.cy.ts",
-          "hash": "5906786348823687945"
-        },
-        {
-          "file": "frontend-e2e/src/fixtures/example.json",
-          "hash": "11785586596216172004"
-        },
-        {
-          "file": "frontend-e2e/src/support/app.po.ts",
-          "hash": "11157016311132186162"
-        },
-        {
-          "file": "frontend-e2e/src/support/commands.ts",
-          "hash": "5397443931564808659"
-        },
-        {
-          "file": "frontend-e2e/src/support/e2e.ts",
-          "hash": "1054106023200826784"
-        },
-        {
-          "file": "frontend-e2e/tsconfig.json",
-          "hash": "4113462041669113066"
-        }
-      ],
-      "redux-bill-tracker-e2e": [
-        {
-          "file": "apps/redux-bill-tracker-e2e/.eslintrc.json",
-          "hash": "14060216369337943343"
-        },
-        {
-          "file": "apps/redux-bill-tracker-e2e/cypress.config.ts",
-          "hash": "2459312576500135441",
-          "deps": [
-            "npm:@nx/cypress",
-            "npm:cypress"
-          ]
-        },
-        {
-          "file": "apps/redux-bill-tracker-e2e/project.json",
-          "hash": "4139607471877649152"
-        },
-        {
-          "file": "apps/redux-bill-tracker-e2e/src/e2e/app.cy.ts",
-          "hash": "8105416011531637135"
-        },
-        {
-          "file": "apps/redux-bill-tracker-e2e/src/fixtures/example.json",
-          "hash": "11785586596216172004"
-        },
-        {
-          "file": "apps/redux-bill-tracker-e2e/src/support/app.po.ts",
-          "hash": "11157016311132186162"
-        },
-        {
-          "file": "apps/redux-bill-tracker-e2e/src/support/commands.ts",
-          "hash": "5397443931564808659"
-        },
-        {
-          "file": "apps/redux-bill-tracker-e2e/src/support/e2e.ts",
-          "hash": "1054106023200826784"
-        },
-        {
-          "file": "apps/redux-bill-tracker-e2e/tsconfig.json",
-          "hash": "4332380883180617610"
-        }
-      ],
-      "backend": [
-        {
-          "file": "backend/.eslintrc.json",
-          "hash": "11808533155536463924"
-        },
-        {
-          "file": "backend/jest.config.ts",
-          "hash": "16609340234475223037"
-        },
-        {
-          "file": "backend/project.json",
-          "hash": "6970430149638097404"
-        },
-        {
-          "file": "backend/src/assets/.gitkeep",
+          "file": "frontend/src/app/app.component.css",
           "hash": "3244421341483603138"
         },
         {
-          "file": "backend/src/main.ts",
-          "hash": "17773914587814559191",
+          "file": "frontend/src/app/app.component.html",
+          "hash": "11053526658625005098"
+        },
+        {
+          "file": "frontend/src/app/app.component.spec.ts",
+          "hash": "16631783531109721126",
           "deps": [
-            "npm:express"
+            "npm:@angular/core",
+            "npm:@angular/router"
           ]
         },
         {
-          "file": "backend/tsconfig.app.json",
-          "hash": "3852056039976130118"
-        },
-        {
-          "file": "backend/tsconfig.json",
-          "hash": "9420862676426701392"
-        },
-        {
-          "file": "backend/tsconfig.spec.json",
-          "hash": "17313551537729802733"
-        },
-        {
-          "file": "backend/webpack.config.js",
-          "hash": "1279870486852937806",
+          "file": "frontend/src/app/app.component.ts",
+          "hash": "14071978747335246472",
           "deps": [
-            "npm:@nx/webpack"
+            "npm:@angular/core",
+            "npm:@angular/router"
           ]
+        },
+        {
+          "file": "frontend/src/app/app.config.ts",
+          "hash": "10618457967269332155",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "frontend/src/app/app.module.ts",
+          "hash": "2216662293876570046",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/platform-browser",
+            "npm:@angular/forms",
+            "npm:@angular/common",
+            "npm:@ngrx/store",
+            "npm:@ngrx/effects",
+            "npm:@ngrx/store-devtools"
+          ]
+        },
+        {
+          "file": "frontend/src/app/app.routes.ts",
+          "hash": "6185150965714414910",
+          "deps": [
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "frontend/src/app/model/bill.model.ts",
+          "hash": "10275625487254317518"
+        },
+        {
+          "file": "frontend/src/app/model/index.ts",
+          "hash": "6146158107894197914"
+        },
+        {
+          "file": "frontend/src/app/nx-welcome.component.ts",
+          "hash": "3306337553780717440",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common"
+          ]
+        },
+        {
+          "file": "frontend/src/app/reducers/bills.reducer.ts",
+          "hash": "2250523593301789816",
+          "deps": [
+            "npm:@ngrx/store"
+          ]
+        },
+        {
+          "file": "frontend/src/app/reducers/index.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "frontend/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "frontend/src/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "frontend/src/index.html",
+          "hash": "10958459893752702268"
+        },
+        {
+          "file": "frontend/src/main.ts",
+          "hash": "16635586463787978962",
+          "deps": [
+            "npm:@angular/platform-browser"
+          ]
+        },
+        {
+          "file": "frontend/src/styles.css",
+          "hash": "11827223589103615267"
+        },
+        {
+          "file": "frontend/src/test-setup.ts",
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "frontend/tsconfig.app.json",
+          "hash": "13344354189090010831"
+        },
+        {
+          "file": "frontend/tsconfig.editor.json",
+          "hash": "1055794200401717100"
+        },
+        {
+          "file": "frontend/tsconfig.json",
+          "hash": "14495188763378728454"
+        },
+        {
+          "file": "frontend/tsconfig.spec.json",
+          "hash": "2129196202529263968"
         }
       ],
       "backend-e2e": [
@@ -261,6 +291,135 @@
         {
           "file": "backend-e2e/tsconfig.spec.json",
           "hash": "14226830188665428950"
+        }
+      ],
+      "backend": [
+        {
+          "file": "backend/.eslintrc.json",
+          "hash": "11808533155536463924"
+        },
+        {
+          "file": "backend/jest.config.ts",
+          "hash": "16609340234475223037"
+        },
+        {
+          "file": "backend/project.json",
+          "hash": "6970430149638097404"
+        },
+        {
+          "file": "backend/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "backend/src/main.ts",
+          "hash": "8832418232408049471",
+          "deps": [
+            "npm:express",
+            "npm:sqlite3"
+          ]
+        },
+        {
+          "file": "backend/tsconfig.app.json",
+          "hash": "3852056039976130118"
+        },
+        {
+          "file": "backend/tsconfig.json",
+          "hash": "9420862676426701392"
+        },
+        {
+          "file": "backend/tsconfig.spec.json",
+          "hash": "17313551537729802733"
+        },
+        {
+          "file": "backend/webpack.config.js",
+          "hash": "1279870486852937806",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
+        }
+      ],
+      "redux-bill-tracker-e2e": [
+        {
+          "file": "apps/redux-bill-tracker-e2e/.eslintrc.json",
+          "hash": "14060216369337943343"
+        },
+        {
+          "file": "apps/redux-bill-tracker-e2e/cypress.config.ts",
+          "hash": "2459312576500135441",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "apps/redux-bill-tracker-e2e/project.json",
+          "hash": "4139607471877649152"
+        },
+        {
+          "file": "apps/redux-bill-tracker-e2e/src/e2e/app.cy.ts",
+          "hash": "8105416011531637135"
+        },
+        {
+          "file": "apps/redux-bill-tracker-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "apps/redux-bill-tracker-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/redux-bill-tracker-e2e/src/support/commands.ts",
+          "hash": "5397443931564808659"
+        },
+        {
+          "file": "apps/redux-bill-tracker-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "apps/redux-bill-tracker-e2e/tsconfig.json",
+          "hash": "4332380883180617610"
+        }
+      ],
+      "frontend-e2e": [
+        {
+          "file": "frontend-e2e/.eslintrc.json",
+          "hash": "12199001048877152138"
+        },
+        {
+          "file": "frontend-e2e/cypress.config.ts",
+          "hash": "11715809145918169763",
+          "deps": [
+            "npm:@nx/cypress",
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "frontend-e2e/project.json",
+          "hash": "15059273554726147968"
+        },
+        {
+          "file": "frontend-e2e/src/e2e/app.cy.ts",
+          "hash": "5906786348823687945"
+        },
+        {
+          "file": "frontend-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "frontend-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "frontend-e2e/src/support/commands.ts",
+          "hash": "5397443931564808659"
+        },
+        {
+          "file": "frontend-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "frontend-e2e/tsconfig.json",
+          "hash": "4113462041669113066"
         }
       ],
       "redux-bill-tracker": [
@@ -376,113 +535,6 @@
         {
           "file": "apps/redux-bill-tracker/tsconfig.spec.json",
           "hash": "2927375835638640771"
-        }
-      ],
-      "frontend": [
-        {
-          "file": "frontend/.eslintrc.json",
-          "hash": "2256703210621316538"
-        },
-        {
-          "file": "frontend/jest.config.ts",
-          "hash": "2904116186309904543"
-        },
-        {
-          "file": "frontend/project.json",
-          "hash": "17317386203033135859"
-        },
-        {
-          "file": "frontend/src/app/app.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "frontend/src/app/app.component.html",
-          "hash": "5654460193981998828"
-        },
-        {
-          "file": "frontend/src/app/app.component.spec.ts",
-          "hash": "16631783531109721126",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "frontend/src/app/app.component.ts",
-          "hash": "17805883409722631186",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "frontend/src/app/app.config.ts",
-          "hash": "10618457967269332155",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "frontend/src/app/app.routes.ts",
-          "hash": "6185150965714414910",
-          "deps": [
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "frontend/src/app/nx-welcome.component.ts",
-          "hash": "3306337553780717440",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common"
-          ]
-        },
-        {
-          "file": "frontend/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "frontend/src/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "frontend/src/index.html",
-          "hash": "10958459893752702268"
-        },
-        {
-          "file": "frontend/src/main.ts",
-          "hash": "16635586463787978962",
-          "deps": [
-            "npm:@angular/platform-browser"
-          ]
-        },
-        {
-          "file": "frontend/src/styles.css",
-          "hash": "5195668842064076916"
-        },
-        {
-          "file": "frontend/src/test-setup.ts",
-          "hash": "12935735732682149507",
-          "deps": [
-            "npm:jest-preset-angular"
-          ]
-        },
-        {
-          "file": "frontend/tsconfig.app.json",
-          "hash": "13344354189090010831"
-        },
-        {
-          "file": "frontend/tsconfig.editor.json",
-          "hash": "1055794200401717100"
-        },
-        {
-          "file": "frontend/tsconfig.json",
-          "hash": "14495188763378728454"
-        },
-        {
-          "file": "frontend/tsconfig.spec.json",
-          "hash": "2129196202529263968"
         }
       ]
     }
