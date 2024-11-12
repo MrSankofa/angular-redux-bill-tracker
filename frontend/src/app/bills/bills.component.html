@@ -1,0 +1,39 @@
+<div class="p-6">
+  <h1 class="text-2xl font-bold mb-4">Bill Tracker</h1>
+
+  <!-- Form to Create/Edit Bills -->
+  <form [formGroup]="billForm" (ngSubmit)="onSubmit()" class="mb-4">
+    <input formControlName="name" placeholder="Bill Name" class="p-2 border rounded mb-2 w-full" required>
+    <input formControlName="dueDate" type="date" class="p-2 border rounded mb-2 w-full" required>
+    <input formControlName="amount" type="number" placeholder="Amount ($)" class="p-2 border rounded mb-2 w-full" required>
+    <input formControlName="bankAccount" placeholder="Bank Account" class="p-2 border rounded mb-2 w-full" required>
+    <button type="submit" class="bg-blue-500 text-white p-2 rounded w-full">
+      {{ editingBill ? 'Update Bill' : 'Add Bill' }}
+    </button>
+  </form>
+
+  <!-- Table of Bills -->
+  <table class="w-full table-auto mb-4">
+    <thead>
+    <tr class="bg-gray-200">
+      <th class="p-2">Name</th>
+      <th class="p-2">Due Date</th>
+      <th class="p-2">Amount</th>
+      <th class="p-2">Bank Account</th>
+      <th class="p-2">Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let bill of bills$ | async">
+      <td class="p-2">{{ bill.name }}</td>
+      <td class="p-2">{{ bill.dueDate }}</td>
+      <td class="p-2">{{ bill.amount }}</td>
+      <td class="p-2">{{ bill.bankAccount }}</td>
+      <td class="p-2">
+        <button (click)="editBill(bill)" class="text-blue-500 hover:underline">Edit</button>
+        <button (click)="deleteBill(bill.id)" class="text-red-500 hover:underline">Delete</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>

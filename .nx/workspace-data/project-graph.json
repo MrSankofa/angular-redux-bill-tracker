@@ -15563,12 +15563,17 @@
       },
       {
         "source": "frontend",
+        "target": "npm:rxjs",
+        "type": "static"
+      },
+      {
+        "source": "frontend",
         "target": "npm:@ngrx/effects",
         "type": "static"
       },
       {
         "source": "frontend",
-        "target": "npm:@ngrx/store-devtools",
+        "target": "npm:@angular/platform-browser-dynamic",
         "type": "static"
       },
       {

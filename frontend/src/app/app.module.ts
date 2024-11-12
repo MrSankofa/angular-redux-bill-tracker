@@ -3,17 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {  HttpClientModule } from '@angular/common/http';
 import { StoreModule } from '@ngrx/store';
-import { EffectsModule } from '@ngrx/effects';
-import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 
 
 import { AppComponent } from './app.component';
 import { billsReducer } from './reducers/bills.reducer';
+import { BillsComponent } from './bills/bills.component';
+import { BillService } from './services/bill.service';
 
 
 @NgModule({
   declarations: [
-
+    AppComponent,
+    BillsComponent
   ],
   imports: [
     BrowserModule,
@@ -22,9 +23,8 @@ import { billsReducer } from './reducers/bills.reducer';
     HttpClientModule,
     // NgRx Store setup with reducer
     StoreModule.forRoot({ bills: billsReducer }),
-    AppComponent
   ],
-  providers: [],
-  bootstrap: []
+  providers: [ BillService],
+  bootstrap: [AppComponent],
 })
 export class AppModule { }

@@ -30,20 +30,28 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "15257385910645153551"
-      },
-      {
-        "file": "migrations.json",
-        "hash": "17225330691919688407"
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
       },
       {
         "file": "README.md",
         "hash": "3545261118181418371"
+      },
+      {
+        "file": "tailwind.config.js",
+        "hash": "7986470667704694812"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
         "file": ".gitignore",
@@ -54,48 +62,40 @@
         "hash": "17439652639096632583"
       },
       {
-        "file": "nx.json",
-        "hash": "9850058845278658292"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "18315524891129148814"
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
       },
       {
         "file": ".eslintignore",
         "hash": "7663861978715868291"
       },
       {
-        "file": "package.json",
-        "hash": "4674034899188421071"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "3395189204293871444"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
-      },
-      {
         "file": ".editorconfig",
         "hash": "5443105041930014821"
       },
       {
-        "file": "tailwind.config.js",
-        "hash": "7986470667704694812"
+        "file": ".eslintrc.json",
+        "hash": "18315524891129148814"
       },
       {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
+        "file": "migrations.json",
+        "hash": "17225330691919688407"
       },
       {
-        "file": ".vscode/extensions.json",
-        "hash": "4934098906304722861"
+        "file": "nx.json",
+        "hash": "9850058845278658292"
+      },
+      {
+        "file": "package.json",
+        "hash": "4674034899188421071"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "15257385910645153551"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "3395189204293871444"
       }
     ],
     "projectFileMap": {
@@ -129,7 +129,7 @@
         },
         {
           "file": "frontend/src/app/app.component.html",
-          "hash": "11053526658625005098"
+          "hash": "10862092740600803280"
         },
         {
           "file": "frontend/src/app/app.component.spec.ts",
@@ -141,10 +141,9 @@
         },
         {
           "file": "frontend/src/app/app.component.ts",
-          "hash": "14071978747335246472",
+          "hash": "14421401350743003247",
           "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
+            "npm:@angular/core"
           ]
         },
         {
@@ -157,15 +156,13 @@
         },
         {
           "file": "frontend/src/app/app.module.ts",
-          "hash": "2216662293876570046",
+          "hash": "18177554771165007278",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/platform-browser",
             "npm:@angular/forms",
             "npm:@angular/common",
-            "npm:@ngrx/store",
-            "npm:@ngrx/effects",
-            "npm:@ngrx/store-devtools"
+            "npm:@ngrx/store"
           ]
         },
         {
@@ -173,6 +170,33 @@
           "hash": "6185150965714414910",
           "deps": [
             "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "frontend/src/app/bills/bills.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "frontend/src/app/bills/bills.component.html",
+          "hash": "10710729021957977267"
+        },
+        {
+          "file": "frontend/src/app/bills/bills.component.ts",
+          "hash": "4362657418999879148",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@ngrx/store",
+            "npm:rxjs",
+            "npm:@angular/forms"
+          ]
+        },
+        {
+          "file": "frontend/src/app/effects/bill.effects.ts",
+          "hash": "2558971239440092790",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@ngrx/effects",
+            "npm:rxjs"
           ]
         },
         {
@@ -203,6 +227,19 @@
           "hash": "3244421341483603138"
         },
         {
+          "file": "frontend/src/app/services/bill.service.ts",
+          "hash": "1449006908820456826",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "frontend/src/app/state/app.state.ts",
+          "hash": "971139312284163359"
+        },
+        {
           "file": "frontend/src/assets/.gitkeep",
           "hash": "3244421341483603138"
         },
@@ -216,9 +253,10 @@
         },
         {
           "file": "frontend/src/main.ts",
-          "hash": "16635586463787978962",
+          "hash": "13235529822349800902",
           "deps": [
-            "npm:@angular/platform-browser"
+            "npm:@angular/platform-browser",
+            "npm:@angular/platform-browser-dynamic"
           ]
         },
         {
