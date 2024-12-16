@@ -30,12 +30,48 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "README.md",
-        "hash": "3545261118181418371"
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "7663861978715868291"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "18315524891129148814"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "12054144843407855249"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "3395189204293871444"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
         "file": ".vscode/extensions.json",
         "hash": "4934098906304722861"
+      },
+      {
+        "file": "README.md",
+        "hash": "3545261118181418371"
+      },
+      {
+        "file": "bills.db",
+        "hash": "17439652639096632583"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
       },
       {
         "file": "migrations.json",
@@ -47,287 +83,66 @@
       },
       {
         "file": "package-lock.json",
-        "hash": "15257385910645153551"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "8491837053101957257"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "7663861978715868291"
-      },
-      {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
+        "hash": "5650728143617566031"
       },
       {
         "file": "package.json",
-        "hash": "4674034899188421071"
+        "hash": "3049579207549490467"
       },
       {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "3395189204293871444"
+        "file": "postcss.config.js",
+        "hash": "11360490016649979777"
       },
       {
         "file": "tailwind.config.js",
-        "hash": "7986470667704694812"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
+        "hash": "13075541973064953880"
       },
       {
         "file": "tsconfig.base.json",
         "hash": "16936441711144470533"
-      },
-      {
-        "file": "bills.db",
-        "hash": "17439652639096632583"
-      },
-      {
-        "file": ".eslintrc.json",
-        "hash": "18315524891129148814"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
       }
     ],
     "projectFileMap": {
-      "frontend": [
+      "redux-bill-tracker-e2e": [
         {
-          "file": "frontend/.eslintrc.json",
-          "hash": "2256703210621316538"
+          "file": "apps/redux-bill-tracker-e2e/.eslintrc.json",
+          "hash": "14060216369337943343"
         },
         {
-          "file": "frontend/jest.config.ts",
-          "hash": "2904116186309904543"
-        },
-        {
-          "file": "frontend/project.json",
-          "hash": "17317386203033135859"
-        },
-        {
-          "file": "frontend/src/app/actions/bills.actions.ts",
-          "hash": "12889045064278941161",
+          "file": "apps/redux-bill-tracker-e2e/cypress.config.ts",
+          "hash": "2459312576500135441",
           "deps": [
-            "npm:@ngrx/store"
+            "npm:@nx/cypress",
+            "npm:cypress"
           ]
         },
         {
-          "file": "frontend/src/app/actions/index.ts",
-          "hash": "11016409174876355888"
+          "file": "apps/redux-bill-tracker-e2e/project.json",
+          "hash": "4139607471877649152"
         },
         {
-          "file": "frontend/src/app/app.component.css",
-          "hash": "3244421341483603138"
+          "file": "apps/redux-bill-tracker-e2e/src/e2e/app.cy.ts",
+          "hash": "8105416011531637135"
         },
         {
-          "file": "frontend/src/app/app.component.html",
-          "hash": "10862092740600803280"
+          "file": "apps/redux-bill-tracker-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
         },
         {
-          "file": "frontend/src/app/app.component.spec.ts",
-          "hash": "16631783531109721126",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
+          "file": "apps/redux-bill-tracker-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
         },
         {
-          "file": "frontend/src/app/app.component.ts",
-          "hash": "14421401350743003247",
-          "deps": [
-            "npm:@angular/core"
-          ]
+          "file": "apps/redux-bill-tracker-e2e/src/support/commands.ts",
+          "hash": "5397443931564808659"
         },
         {
-          "file": "frontend/src/app/app.config.ts",
-          "hash": "10618457967269332155",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
+          "file": "apps/redux-bill-tracker-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
         },
         {
-          "file": "frontend/src/app/app.module.ts",
-          "hash": "18177554771165007278",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/platform-browser",
-            "npm:@angular/forms",
-            "npm:@angular/common",
-            "npm:@ngrx/store"
-          ]
-        },
-        {
-          "file": "frontend/src/app/app.routes.ts",
-          "hash": "6185150965714414910",
-          "deps": [
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "frontend/src/app/bills/bills.component.css",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "frontend/src/app/bills/bills.component.html",
-          "hash": "10710729021957977267"
-        },
-        {
-          "file": "frontend/src/app/bills/bills.component.ts",
-          "hash": "4362657418999879148",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@ngrx/store",
-            "npm:rxjs",
-            "npm:@angular/forms"
-          ]
-        },
-        {
-          "file": "frontend/src/app/effects/bill.effects.ts",
-          "hash": "2558971239440092790",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@ngrx/effects",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "frontend/src/app/model/bill.model.ts",
-          "hash": "10275625487254317518"
-        },
-        {
-          "file": "frontend/src/app/model/index.ts",
-          "hash": "6146158107894197914"
-        },
-        {
-          "file": "frontend/src/app/nx-welcome.component.ts",
-          "hash": "3306337553780717440",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common"
-          ]
-        },
-        {
-          "file": "frontend/src/app/reducers/bills.reducer.ts",
-          "hash": "2250523593301789816",
-          "deps": [
-            "npm:@ngrx/store"
-          ]
-        },
-        {
-          "file": "frontend/src/app/reducers/index.ts",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "frontend/src/app/services/bill.service.ts",
-          "hash": "1449006908820456826",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common",
-            "npm:rxjs"
-          ]
-        },
-        {
-          "file": "frontend/src/app/state/app.state.ts",
-          "hash": "971139312284163359"
-        },
-        {
-          "file": "frontend/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "frontend/src/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "frontend/src/index.html",
-          "hash": "10958459893752702268"
-        },
-        {
-          "file": "frontend/src/main.ts",
-          "hash": "15763218217889205991",
-          "deps": [
-            "npm:@angular/platform-browser-dynamic"
-          ]
-        },
-        {
-          "file": "frontend/src/styles.css",
-          "hash": "11827223589103615267"
-        },
-        {
-          "file": "frontend/src/test-setup.ts",
-          "hash": "12935735732682149507",
-          "deps": [
-            "npm:jest-preset-angular"
-          ]
-        },
-        {
-          "file": "frontend/tsconfig.app.json",
-          "hash": "13344354189090010831"
-        },
-        {
-          "file": "frontend/tsconfig.editor.json",
-          "hash": "1055794200401717100"
-        },
-        {
-          "file": "frontend/tsconfig.json",
-          "hash": "14495188763378728454"
-        },
-        {
-          "file": "frontend/tsconfig.spec.json",
-          "hash": "2129196202529263968"
-        }
-      ],
-      "backend-e2e": [
-        {
-          "file": "backend-e2e/.eslintrc.json",
-          "hash": "11808533155536463924"
-        },
-        {
-          "file": "backend-e2e/jest.config.ts",
-          "hash": "11549239295235047736"
-        },
-        {
-          "file": "backend-e2e/project.json",
-          "hash": "1188065140152122076"
-        },
-        {
-          "file": "backend-e2e/src/backend/backend.spec.ts",
-          "hash": "4579662685003779048",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "backend-e2e/src/support/global-setup.ts",
-          "hash": "2568409276037275290"
-        },
-        {
-          "file": "backend-e2e/src/support/global-teardown.ts",
-          "hash": "5275447082211835490"
-        },
-        {
-          "file": "backend-e2e/src/support/test-setup.ts",
-          "hash": "10984585515912236441",
-          "deps": [
-            "npm:axios"
-          ]
-        },
-        {
-          "file": "backend-e2e/tsconfig.json",
-          "hash": "2346920493880922870"
-        },
-        {
-          "file": "backend-e2e/tsconfig.spec.json",
-          "hash": "14226830188665428950"
+          "file": "apps/redux-bill-tracker-e2e/tsconfig.json",
+          "hash": "4332380883180617610"
         }
       ],
       "backend": [
@@ -375,46 +190,48 @@
           ]
         }
       ],
-      "redux-bill-tracker-e2e": [
+      "backend-e2e": [
         {
-          "file": "apps/redux-bill-tracker-e2e/.eslintrc.json",
-          "hash": "14060216369337943343"
+          "file": "backend-e2e/.eslintrc.json",
+          "hash": "11808533155536463924"
         },
         {
-          "file": "apps/redux-bill-tracker-e2e/cypress.config.ts",
-          "hash": "2459312576500135441",
+          "file": "backend-e2e/jest.config.ts",
+          "hash": "11549239295235047736"
+        },
+        {
+          "file": "backend-e2e/project.json",
+          "hash": "1188065140152122076"
+        },
+        {
+          "file": "backend-e2e/src/backend/backend.spec.ts",
+          "hash": "4579662685003779048",
           "deps": [
-            "npm:@nx/cypress",
-            "npm:cypress"
+            "npm:axios"
           ]
         },
         {
-          "file": "apps/redux-bill-tracker-e2e/project.json",
-          "hash": "4139607471877649152"
+          "file": "backend-e2e/src/support/global-setup.ts",
+          "hash": "2568409276037275290"
         },
         {
-          "file": "apps/redux-bill-tracker-e2e/src/e2e/app.cy.ts",
-          "hash": "8105416011531637135"
+          "file": "backend-e2e/src/support/global-teardown.ts",
+          "hash": "5275447082211835490"
         },
         {
-          "file": "apps/redux-bill-tracker-e2e/src/fixtures/example.json",
-          "hash": "11785586596216172004"
+          "file": "backend-e2e/src/support/test-setup.ts",
+          "hash": "10984585515912236441",
+          "deps": [
+            "npm:axios"
+          ]
         },
         {
-          "file": "apps/redux-bill-tracker-e2e/src/support/app.po.ts",
-          "hash": "11157016311132186162"
+          "file": "backend-e2e/tsconfig.json",
+          "hash": "2346920493880922870"
         },
         {
-          "file": "apps/redux-bill-tracker-e2e/src/support/commands.ts",
-          "hash": "5397443931564808659"
-        },
-        {
-          "file": "apps/redux-bill-tracker-e2e/src/support/e2e.ts",
-          "hash": "1054106023200826784"
-        },
-        {
-          "file": "apps/redux-bill-tracker-e2e/tsconfig.json",
-          "hash": "4332380883180617610"
+          "file": "backend-e2e/tsconfig.spec.json",
+          "hash": "14226830188665428950"
         }
       ],
       "frontend-e2e": [
@@ -572,6 +389,175 @@
         {
           "file": "apps/redux-bill-tracker/tsconfig.spec.json",
           "hash": "2927375835638640771"
+        }
+      ],
+      "frontend": [
+        {
+          "file": "frontend/.eslintrc.json",
+          "hash": "2256703210621316538"
+        },
+        {
+          "file": "frontend/jest.config.ts",
+          "hash": "2904116186309904543"
+        },
+        {
+          "file": "frontend/project.json",
+          "hash": "16481029041060413444"
+        },
+        {
+          "file": "frontend/src/app/actions/bills.actions.ts",
+          "hash": "12889045064278941161",
+          "deps": [
+            "npm:@ngrx/store"
+          ]
+        },
+        {
+          "file": "frontend/src/app/actions/index.ts",
+          "hash": "11016409174876355888"
+        },
+        {
+          "file": "frontend/src/app/app.component.css",
+          "hash": "2866083945719690482"
+        },
+        {
+          "file": "frontend/src/app/app.component.html",
+          "hash": "1506534831746500876"
+        },
+        {
+          "file": "frontend/src/app/app.component.spec.ts",
+          "hash": "5662180520653554267",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
+        },
+        {
+          "file": "frontend/src/app/app.component.ts",
+          "hash": "14421401350743003247",
+          "deps": [
+            "npm:@angular/core"
+          ]
+        },
+        {
+          "file": "frontend/src/app/app.module.ts",
+          "hash": "8727739146189158243",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/platform-browser",
+            "npm:@angular/forms",
+            "npm:@angular/common",
+            "npm:@ngrx/store",
+            "npm:@ngrx/effects"
+          ]
+        },
+        {
+          "file": "frontend/src/app/bills/bills.component.css",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "frontend/src/app/bills/bills.component.html",
+          "hash": "10710729021957977267"
+        },
+        {
+          "file": "frontend/src/app/bills/bills.component.ts",
+          "hash": "4362657418999879148",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@ngrx/store",
+            "npm:rxjs",
+            "npm:@angular/forms"
+          ]
+        },
+        {
+          "file": "frontend/src/app/effects/bill.effects.ts",
+          "hash": "9348274507670021798",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@ngrx/effects",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "frontend/src/app/model/bill.model.ts",
+          "hash": "10275625487254317518"
+        },
+        {
+          "file": "frontend/src/app/model/index.ts",
+          "hash": "6146158107894197914"
+        },
+        {
+          "file": "frontend/src/app/reducers/bills.reducer.ts",
+          "hash": "2250523593301789816",
+          "deps": [
+            "npm:@ngrx/store"
+          ]
+        },
+        {
+          "file": "frontend/src/app/reducers/index.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "frontend/src/app/services/bill.service.ts",
+          "hash": "10043316209793020719",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/common",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "frontend/src/app/state/app.state.ts",
+          "hash": "971139312284163359"
+        },
+        {
+          "file": "frontend/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "frontend/src/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "frontend/src/index.html",
+          "hash": "136978042606901544"
+        },
+        {
+          "file": "frontend/src/main.ts",
+          "hash": "15763218217889205991",
+          "deps": [
+            "npm:@angular/platform-browser-dynamic"
+          ]
+        },
+        {
+          "file": "frontend/src/styles.css",
+          "hash": "11827223589103615267"
+        },
+        {
+          "file": "frontend/src/styles/tailwind.css",
+          "hash": "2866083945719690482"
+        },
+        {
+          "file": "frontend/src/test-setup.ts",
+          "hash": "12935735732682149507",
+          "deps": [
+            "npm:jest-preset-angular"
+          ]
+        },
+        {
+          "file": "frontend/tsconfig.app.json",
+          "hash": "13344354189090010831"
+        },
+        {
+          "file": "frontend/tsconfig.editor.json",
+          "hash": "1055794200401717100"
+        },
+        {
+          "file": "frontend/tsconfig.json",
+          "hash": "14495188763378728454"
+        },
+        {
+          "file": "frontend/tsconfig.spec.json",
+          "hash": "2129196202529263968"
         }
       ]
     }

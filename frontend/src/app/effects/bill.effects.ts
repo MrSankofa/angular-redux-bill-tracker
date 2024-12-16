@@ -6,12 +6,12 @@ import { BillService } from '../services/bill.service';
 
 @Injectable()
 export class BillEffects {
+
+  constructor(private actions$: Actions, private billService: BillService) {}
   loadBills$ = createEffect(() =>
     this.actions$.pipe(
       ofType(loadBills),
       mergeMap(() => this.billService.getBills().pipe(map(bills => loadBillsSuccess({ bills }))))
     )
   );
-
-  constructor(private actions$: Actions, private billService: BillService) {}
 }

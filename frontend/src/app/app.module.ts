@@ -9,6 +9,8 @@ import { AppComponent } from './app.component';
 import { billsReducer } from './reducers/bills.reducer';
 import { BillsComponent } from './bills/bills.component';
 import { BillService } from './services/bill.service';
+import { EffectsModule } from '@ngrx/effects';
+import { BillEffects } from './effects/bill.effects';
 
 
 @NgModule({
@@ -23,6 +25,7 @@ import { BillService } from './services/bill.service';
     HttpClientModule,
     // NgRx Store setup with reducer
     StoreModule.forRoot({ bills: billsReducer }),
+    EffectsModule.forRoot([BillEffects])
   ],
   providers: [ BillService],
   bootstrap: [AppComponent],
