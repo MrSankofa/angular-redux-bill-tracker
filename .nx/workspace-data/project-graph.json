@@ -682,7 +682,8 @@
                 "frontend/src/assets"
               ],
               "styles": [
-                "frontend/src/styles.css"
+                "frontend/src/styles.css",
+                "frontend/src/styles/tailwind.css"
               ],
               "scripts": []
             },
@@ -1151,6 +1152,24 @@
         "version": "8.4.2",
         "packageName": "open",
         "hash": "sha512-7x81NCL719oNbsq/3mh+hVrAWmFuEYUqrq/Iw3kUzH8ReypT9QQ0BLoJS7/G9k6N81XjW4qHWtjWwe/9eLy1EQ=="
+      }
+    },
+    "npm:postcss@8.4.41": {
+      "type": "npm",
+      "name": "npm:postcss@8.4.41",
+      "data": {
+        "version": "8.4.41",
+        "packageName": "postcss",
+        "hash": "sha512-TesUflQ0WKZqAvg52PWL6kHgLKP6xB6heTOdoYM0Wt2UHyxNa4K25EZZMgKns3BH1RLVbZCREPpLY0rhnNoHVQ=="
+      }
+    },
+    "npm:postcss": {
+      "type": "npm",
+      "name": "npm:postcss",
+      "data": {
+        "version": "8.4.49",
+        "packageName": "postcss",
+        "hash": "sha512-OCVPnIObs4N29kxTjzLfUryOkvZEq+pf8jTF0lg8E7uETuWHA+v7j3c/xJmiqpX450191LlmZfUKkXxkTry7nA=="
       }
     },
     "npm:semver@7.6.3": {
@@ -13015,24 +13034,6 @@
         "hash": "sha512-on2ZJVVDXRADWE6jnQaX0ioEylzgBpQk8r55NE4wjXW1ZxO+BgDlY6DXwj20i0V8eB4SenDQ00WEaxfiIQPcxg=="
       }
     },
-    "npm:postcss": {
-      "type": "npm",
-      "name": "npm:postcss",
-      "data": {
-        "version": "8.4.41",
-        "packageName": "postcss",
-        "hash": "sha512-TesUflQ0WKZqAvg52PWL6kHgLKP6xB6heTOdoYM0Wt2UHyxNa4K25EZZMgKns3BH1RLVbZCREPpLY0rhnNoHVQ=="
-      }
-    },
-    "npm:postcss@8.4.49": {
-      "type": "npm",
-      "name": "npm:postcss@8.4.49",
-      "data": {
-        "version": "8.4.49",
-        "packageName": "postcss",
-        "hash": "sha512-OCVPnIObs4N29kxTjzLfUryOkvZEq+pf8jTF0lg8E7uETuWHA+v7j3c/xJmiqpX450191LlmZfUKkXxkTry7nA=="
-      }
-    },
     "npm:postcss-calc": {
       "type": "npm",
       "name": "npm:postcss-calc",
@@ -15568,7 +15569,12 @@
       },
       {
         "source": "frontend",
-        "target": "npm:@ngrx/store-devtools",
+        "target": "npm:rxjs",
+        "type": "static"
+      },
+      {
+        "source": "frontend",
+        "target": "npm:@angular/platform-browser-dynamic",
         "type": "static"
       },
       {
@@ -15898,7 +15904,7 @@
       },
       {
         "source": "npm:@angular-devkit/build-angular",
-        "target": "npm:postcss",
+        "target": "npm:postcss@8.4.41",
         "type": "static"
       },
       {
@@ -16035,6 +16041,23 @@
       {
         "source": "npm:open@10.1.0",
         "target": "npm:is-wsl@3.1.0",
+        "type": "static"
+      }
+    ],
+    "npm:postcss@8.4.41": [
+      {
+        "source": "npm:postcss@8.4.41",
+        "target": "npm:nanoid",
+        "type": "static"
+      },
+      {
+        "source": "npm:postcss@8.4.41",
+        "target": "npm:picocolors",
+        "type": "static"
+      },
+      {
+        "source": "npm:postcss@8.4.41",
+        "target": "npm:source-map-js",
         "type": "static"
       }
     ],
@@ -35180,7 +35203,7 @@
       },
       {
         "source": "npm:vite",
-        "target": "npm:postcss@8.4.49",
+        "target": "npm:postcss",
         "type": "static"
       },
       {
@@ -35308,23 +35331,6 @@
       {
         "source": "npm:esbuild@0.21.5",
         "target": "npm:@esbuild/win32-x64@0.21.5",
-        "type": "static"
-      }
-    ],
-    "npm:postcss@8.4.49": [
-      {
-        "source": "npm:postcss@8.4.49",
-        "target": "npm:nanoid",
-        "type": "static"
-      },
-      {
-        "source": "npm:postcss@8.4.49",
-        "target": "npm:picocolors",
-        "type": "static"
-      },
-      {
-        "source": "npm:postcss@8.4.49",
-        "target": "npm:source-map-js",
         "type": "static"
       }
     ],
